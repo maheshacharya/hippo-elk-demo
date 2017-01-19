@@ -1,0 +1,286 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-banner-folder": "new banner folder",
+      "new-banner-document": "new banner document",
+      "new-content-folder": "new content folder",
+      "new-content-document": "new content document",
+      "new-news-document": "new news item",
+      "new-resource-bundle": "new resource bundle",
+      "new-news-folder": "new news item folder",
+      "new-blog-folder": "new blog folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-blog-document": "new blog post",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-banner-folder": "nieuwe banner map",
+      "new-banner-document": "nieuwe banner",
+      "new-content-folder": "nieuwe contentmap",
+      "new-content-document": "nieuw content document",
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-blog-folder": "nieuwe banner map",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-blogauthor-document": "nieuwe blog auteur"
+    },
+    "de":     {
+      "new-banner-folder": "Neuer Banner-Ordner",
+      "new-banner-document": "Neues Banner",
+      "new-content-folder": "Neuer Content-Ordner",
+      "new-content-document": "Neues Content-Document",
+      "new-news-document": "Neue News",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "fr":     {
+      "new-banner-folder": "nouveau dossier bannière",
+      "new-banner-document": "nouvelle bannière",
+      "new-content-folder": "nouveau dossier contenu",
+      "new-content-document": "nouveau document contenu",
+      "new-news-document": "nouveau message d'info",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-blog-document": "nouveau post blog",
+      "new-blogauthor-document": "nouvel auteur blog"
+    }
+  },
+  "hippo:types":   {
+    "hippoelkdemo:bannerdocument":     {
+      "en":       {
+        "hippoelkdemo:title": "Title",
+        "hippoelkdemo:link": "Link",
+        "hippoelkdemo:content": "Content",
+        "jcr:name": "Banner",
+        "hippoelkdemo:image": "Image"
+      },
+      "nl":       {
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:link": "Link",
+        "hippoelkdemo:content": "Inhoud",
+        "jcr:name": "Banner",
+        "hippoelkdemo:image": "Afbeelding"
+      },
+      "fr":       {
+        "hippoelkdemo:title": "Titre",
+        "hippoelkdemo:link": "Lien",
+        "hippoelkdemo:content": "Contenu",
+        "jcr:name": "Bannière",
+        "hippoelkdemo:image": "Image"
+      },
+      "de":       {
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:link": "Link",
+        "hippoelkdemo:content": "Inhalt",
+        "jcr:name": "Banner",
+        "hippoelkdemo:image": "Abbildung"
+      }
+    },
+    "hippoelkdemo:newsdocument":     {
+      "en":       {
+        "hippoelkdemo:author": "Author",
+        "hippoelkdemo:date": "Date",
+        "hippoelkdemo:source": "Source",
+        "jcr:name": "News Item",
+        "hippoelkdemo:image": "Image",
+        "hippoelkdemo:location": "Location",
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Title",
+        "hippoelkdemo:content": "Content"
+      },
+      "nl":       {
+        "hippoelkdemo:author": "Auteur",
+        "hippoelkdemo:date": "Datum",
+        "hippoelkdemo:source": "Bron",
+        "jcr:name": "Nieuwsbericht",
+        "hippoelkdemo:image": "Afbeelding",
+        "hippoelkdemo:location": "Locatie",
+        "hippoelkdemo:introduction": "Introductie",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:content": "Inhoud"
+      },
+      "de":       {
+        "hippoelkdemo:author": "Verfasser",
+        "hippoelkdemo:date": "Datum",
+        "hippoelkdemo:source": "Quelle",
+        "jcr:name": "News",
+        "hippoelkdemo:image": "Abbildung",
+        "hippoelkdemo:location": "Standort",
+        "hippoelkdemo:introduction": "Einführung",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:content": "Inhalt"
+      },
+      "fr":       {
+        "hippoelkdemo:author": "Auteur",
+        "hippoelkdemo:date": "Date",
+        "hippoelkdemo:source": "Source",
+        "jcr:name": "Message d'info",
+        "hippoelkdemo:image": "Image",
+        "hippoelkdemo:location": "Lieu",
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Titre",
+        "hippoelkdemo:content": "Contenu"
+      }
+    },
+    "hippoelkdemo:contentdocument":     {
+      "en":       {
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Title",
+        "hippoelkdemo:content": "Content",
+        "jcr:name": "Simple Document",
+        "hippoelkdemo:publicationdate": "Publication date"
+      },
+      "nl":       {
+        "hippoelkdemo:introduction": "Introductie",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:content": "Inhoud",
+        "jcr:name": "Eenvoudig Document",
+        "hippoelkdemo:publicationdate": "Publicatiedatum"
+      },
+      "fr":       {
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Titre",
+        "hippoelkdemo:content": "Contenu",
+        "jcr:name": "Document simple",
+        "hippoelkdemo:publicationdate": "Date de publication"
+      },
+      "de":       {
+        "hippoelkdemo:introduction": "Einführung",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:content": "Inhalt",
+        "jcr:name": "Einfaches Dokument",
+        "hippoelkdemo:publicationdate": "Publikationsdatum"
+      }
+    },
+    "hippoelkdemo:blogpost":     {
+      "en":       {
+        "jcr:name": "Blogpost",
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Title",
+        "hippoelkdemo:categories": "Categories",
+        "hippoelkdemo:content": "Content",
+        "hippoelkdemo:authors#hint": "Link to author document(s)",
+        "hippoelkdemo:authors": "Author(s)",
+        "hippoelkdemo:publicationdate": "Publication Date"
+      },
+      "nl":       {
+        "jcr:name": "Blogpost",
+        "hippoelkdemo:introduction": "Introductie",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:categories": "Categorieën",
+        "hippoelkdemo:content": "Inhoud",
+        "hippoelkdemo:authors#hint": "Link naar auteur document(en)",
+        "hippoelkdemo:authors": "Auteur(s)",
+        "hippoelkdemo:publicationdate": "Publicatiedatum"
+      },
+      "fr":       {
+        "jcr:name": "Post blog",
+        "hippoelkdemo:introduction": "Introduction",
+        "hippoelkdemo:title": "Titre",
+        "hippoelkdemo:categories": "Catégories",
+        "hippoelkdemo:content": "Contenu",
+        "hippoelkdemo:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "hippoelkdemo:authors": "Auteur(s)",
+        "hippoelkdemo:publicationdate": "Date de publication"
+      },
+      "de":       {
+        "jcr:name": "Blog-Post",
+        "hippoelkdemo:introduction": "Einführung",
+        "hippoelkdemo:title": "Titel",
+        "hippoelkdemo:categories": "Kategorien",
+        "hippoelkdemo:content": "Inhalt",
+        "hippoelkdemo:authors#hint": "Link zu Verfasserdokument(en)",
+        "hippoelkdemo:authors": "Verfasser",
+        "hippoelkdemo:publicationdate": "Publikationsdatum"
+      }
+    },
+    "hippoelkdemo:author":     {
+      "en":       {
+        "hippoelkdemo:accounts#hint": "External social media accounts",
+        "hippoelkdemo:photo#hint": "Photo of the author",
+        "hippoelkdemo:role": "Role",
+        "hippoelkdemo:content#hint": "Information about the author",
+        "jcr:name": "Author",
+        "hippoelkdemo:fullname#hint": "Full name",
+        "hippoelkdemo:photo": "Photo",
+        "hippoelkdemo:fullname": "Name",
+        "hippoelkdemo:accounts": "Accounts",
+        "hippoelkdemo:content": "Description"
+      },
+      "nl":       {
+        "hippoelkdemo:accounts#hint": "Externe social media accounts",
+        "hippoelkdemo:photo#hint": "Foto van de auteur",
+        "hippoelkdemo:role": "Rol",
+        "hippoelkdemo:content#hint": "Informatie over de auteur",
+        "jcr:name": "Auteur",
+        "hippoelkdemo:fullname#hint": "Volledige naam",
+        "hippoelkdemo:photo": "Foto",
+        "hippoelkdemo:fullname": "Naam",
+        "hippoelkdemo:accounts": "Accounts",
+        "hippoelkdemo:content": "Beschrijving"
+      },
+      "fr":       {
+        "hippoelkdemo:accounts#hint": "Comptes médias sociaux externes",
+        "hippoelkdemo:photo#hint": "Photo de l'auteur",
+        "hippoelkdemo:role": "Rôle",
+        "hippoelkdemo:content#hint": "Informations sur l'auteur",
+        "jcr:name": "Auteur",
+        "hippoelkdemo:fullname#hint": "Nom complet",
+        "hippoelkdemo:photo": "Photo",
+        "hippoelkdemo:fullname": "Nom",
+        "hippoelkdemo:accounts": "Konten",
+        "hippoelkdemo:content": "Description"
+      },
+      "de":       {
+        "hippoelkdemo:accounts#hint": "Externe Konten soziale Medien",
+        "hippoelkdemo:photo#hint": "Foto des Verfassers",
+        "hippoelkdemo:role": "Rolle",
+        "hippoelkdemo:content#hint": "Informationen über den Verfasser",
+        "jcr:name": "Verfasser",
+        "hippoelkdemo:fullname#hint": "Vollständiger Name",
+        "hippoelkdemo:photo": "Foto",
+        "hippoelkdemo:fullname": "Name",
+        "hippoelkdemo:accounts": "Comptes",
+        "hippoelkdemo:content": "Beschreibung"
+      }
+    },
+    "hippoelkdemo:account":     {
+      "en":       {
+        "hippoelkdemo:link#hint": "External link to the account",
+        "hippoelkdemo:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "hippoelkdemo:type": "Type"
+      },
+      "nl":       {
+        "hippoelkdemo:link#hint": "Externe link naar het account",
+        "hippoelkdemo:link": "Link",
+        "jcr:name": "Account (Compound)",
+        "hippoelkdemo:type": "Soort"
+      },
+      "fr":       {
+        "hippoelkdemo:link#hint": "Lien externe vers le compte",
+        "hippoelkdemo:link": "Lien",
+        "jcr:name": "Compte (Compound)",
+        "hippoelkdemo:type": "Type"
+      },
+      "de":       {
+        "hippoelkdemo:link#hint": "Externer Link zum Konto",
+        "hippoelkdemo:link": "Link",
+        "jcr:name": "Konto (Compound)",
+        "hippoelkdemo:type": "Art"
+      }
+    }
+  }
+}
